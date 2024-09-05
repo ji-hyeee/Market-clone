@@ -1,0 +1,33 @@
+/*info*/
+.info-bar,
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+  margin-top: 10px;
+}
+
+.info-bar__time {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/*menu*/
+.menu-bar__location,
+.menu-bar__icons {
+  display: flex;
+}
+
+.menu-bar__location>p {
+  width: 50px;
+}
+
+.menu-bar img,
+.info-bar__icons img {
+  width: 15px;
+}
+
+.menu-bar__icons img {
+  width: 20px;
+  margin: 0 4px;
+}

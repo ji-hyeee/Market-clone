@@ -1,0 +1,38 @@
+footer {
+  position: fixed;
+  bottom: 0;
+
+  /*view width - 우리가 보는 화면에 100% 채운다*/
+  width: 100vw;
+
+  padding-bottom: 20px;
+  border-top: 0.3px solid gray;
+  background-color: white;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /*아이콘에 가까이가면 마우스모양이 바뀜*/
+  cursor: pointer;
+}
+
+.footer-icons>div {
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.footer-icons__img {
+  width: 30px;
+}
