@@ -39,10 +39,17 @@ main {
   bottom: 130px;
   right: 20px;
   padding: 15px 25px;
-  background-color: orange;
+  background-color: var(--button-primary);
   color: white;
   border-radius: 25px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: var(--button-hover);
 }
 
 .media-info-msg {
@@ -54,7 +61,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: salmon;
+  background-color: orangered;
 }
 
 @media screen and (max-width:520px) {
