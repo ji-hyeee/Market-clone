@@ -46,7 +46,7 @@ main {
 }
 
 .media-info-msg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -55,11 +55,10 @@ main {
   justify-content: center;
   align-items: center;
   background-color: salmon;
-  opacity: 1;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:520px) {
   .media-info-msg {
-    opacity: 0;
+    display: none;
   }
 }
