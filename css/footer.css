@@ -33,6 +33,20 @@ footer {
   margin-top: 5px;
 }
 
+@keyframes icons-move {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-10px);
+  }
+}
+
 .footer-icons__img {
   width: 30px;
+}
+
+.footer-icons:hover .footer-icons__img {
+  animation: 1s icons-move infinite;
 }
