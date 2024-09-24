@@ -46,6 +46,8 @@ main {
 
   cursor: pointer;
   transition: all 1s ease-in-out;
+
+  text-decoration: none;
 }
 
 .write-btn:hover {
