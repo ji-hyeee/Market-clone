@@ -13,8 +13,8 @@ const checkPassword = () => {
 const handleSubmit = async (event) => {
   event.preventDefault();
   const formData = new FormData(form);
-  const sha256PW = sha256(formData.get("password"));
-  formData.set("password", sha256PW);
+  const sha256Password = sha256(formData.get("password"));
+  formData.set("password", sha256Password);
 
   const div = document.querySelector("#info");
 
